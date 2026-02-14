@@ -1,0 +1,62 @@
+.image-text-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.text {
+  font-size: 35px;
+  margin: 0;
+}   
+.home {
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 90px;
+    display: inline;
+    gap: 0px;
+    margin: 0;
+    border: 0;
+}   
+
+.home:hover {
+  background-color: gray;
+}
+.Starters {
+  background-color: rgb(190, 232, 255);
+  height: 400px;  
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Starters:hover {
+  transform: scale(1.1);
+}
+
+.starters11:hover {
+  transform: scale(1.1);
+}
+
+.Maincourse {
+  background-color: rgb(206, 206, 206);
+  height: 400px;
+  max-width: 100%;
+  font-size: x-large;
+  border-radius: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+}
+.Maincourse:hover {
+  transform: scale(1.1);
+}
